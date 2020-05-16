@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Use Media</title>
+	</head>
+	<body>
+		<div style="display: flex; flex-direction: column;">
+			<select name="" id="camera-selector"></select>
+
+			<canvas id="canvas" width="800" height="600"></canvas>
+			<video
+				id="video"
+				autoplay
+				style="display: none;"
+				width="800"
+				height="600"
+			></video>
+		</div>
+
+		<script src="./scripts/clmtrackr-dev/build/clmtrackr.js"></script>
+		<script src="./scripts/clmtrackr-dev/models/model_pca_20_svm.js"></script>
+		<script src="./scripts/main.js"></script>
+	</body>
+</html>
